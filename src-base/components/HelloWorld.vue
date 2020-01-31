@@ -31,6 +31,7 @@
 </template>
 
 <script>
+  /*默认写法*/
 export default {
   name: 'HelloWorld',
   props: {
@@ -39,7 +40,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this components only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
